@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="POST" action="http://localhost:3004/students">
+      <label for="name">Adınız</label>
+      <input type="text" name="name" id="name" placeholder="Adınızı giriniz" />
+      <input type="submit" value="Gönder" />
+    </form>
+
+    <!-- GET Formda kullanılmaz -->
+    <form method="GET" action="http://localhost:3004/students">
+      <input type="submit" value="Öğrencileri getir" />
+    </form>
+  </body>
+</html>

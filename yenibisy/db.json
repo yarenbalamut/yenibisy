@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Yaren"
+    },
+    {
+      "id": 2,
+      "name": "İdris"
+    },
+    {
+      "id": 3,
+      "name": "Balamut"
+    },
+    {
+      "id": 4,
+      "name": "Deniz"
+    },
+    {
+      "name": "Yaren Balamut",
+      "id": 5
+    }
+  ],
+  "course": [
+    {
+      "id": 1,
+      "name": "Bale"
+    },
+    {
+      "id": 2,
+      "name": "Dans"
+    }
+  ],
+  "meal": [
+    {
+      "id": 2,
+      "name": "Öğle yemeği"
+    },
+    {
+      "name": "Akşam yemeği",
+      "id": 3
+    }
+  ]
+}
